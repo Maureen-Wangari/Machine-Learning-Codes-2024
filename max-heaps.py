@@ -43,7 +43,6 @@ class MaxHeap:
     def __str__(self):
         return str(self.heap)
 
-# Example usage:
 max_heap = MaxHeap()
 max_heap.insert(5)
 max_heap.insert(3)
