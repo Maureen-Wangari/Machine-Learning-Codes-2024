@@ -43,7 +43,6 @@ class MinHeap:
     def __str__(self):
         return str(self.heap)
 
-# Example usage:
 min_heap = MinHeap()
 min_heap.insert(5)
 min_heap.insert(3)
