@@ -42,7 +42,6 @@ class MinHeap:  # Define a new class called MinHeap
 
     def __str__(self):  # Method to return a string representation of the heap
         return str(self.heap)  # Return the string representation of the heap list
-
 min_heap = MinHeap()  # Create an instance of MinHeap
 min_heap.insert(5)  # Insert the value 5 into the heap
 min_heap.insert(3)  # Insert the value 3 into the heap
@@ -52,4 +51,15 @@ min_heap.insert(1)  # Insert the value 1 into the heap
 print("Min-Heap:", min_heap)  # Print the current state of the min-heap
 print("Minimum:", min_heap.peek())  # Print the minimum value in the heap
 print("Deleted Minimum:", min_heap.delete_min())  # Print the deleted minimum value
-print("Min-Heap after deletion:", min_heap)  # Print the state of the min-heap after deletion
+print("Min-Heap after deletion:", min_heap)  # Print the state of the min-heap after delete
+min_heap = MinHeap()
+min_heap.insert(5)
+min_heap.insert(3)
+min_heap.insert(8)
+min_heap.insert(1)
+
+print("Min-Heap:", min_heap)
+print("Minimum:", min_heap.peek())
+print("Deleted Minimum:", min_heap.delete_min())
+print("Min-Heap after deletion:", min_heap)
+

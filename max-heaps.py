@@ -53,3 +53,15 @@ print("Max-Heap:", max_heap)  # Print the current state of the max-heap
 print("Maximum:", max_heap.peek())  # Print the maximum value in the heap
 print("Deleted Maximum:", max_heap.delete_max())  # Print the deleted maximum value
 print("Max-Heap after deletion:", max_heap)  # Print the state of the max-heap after deletion
+
+max_heap = MaxHeap()
+max_heap.insert(5)
+max_heap.insert(3)
+max_heap.insert(8)
+max_heap.insert(1)
+
+print("Max-Heap:", max_heap)
+print("Maximum:", max_heap.peek())
+print("Deleted Maximum:", max_heap.delete_max())
+print("Max-Heap after deletion:", max_heap)
+
